@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@1,300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* > * {
+  font-family: 'Poppins', sans-serif; 
+}
+
+.text-inline{
+  @apply mt-1 block w-60 px-3 py-2 bg-white border border-slate-300 rounded-full text-sm shadow-sm placeholder-slate-500;
+}
+
+.social{
+  display: block;
+  background-size: 60px;
+  transform: scale(1);
+  width: 60px;
+  height: 60px;
+ }
+
+.social:hover{
+  transform: scale(1.2); 
+  transition: all 0.3s ease-in-out;
+}
+
+.loader{
+  @apply border-gray-200 ro
+}
